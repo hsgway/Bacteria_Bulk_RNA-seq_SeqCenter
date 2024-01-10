@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # directory
-dir="/Volumes/Expansion/Franz/MappingResults/BAM_sorted"
-outdir="/Volumes/Expansion/Franz/MappingResults/BAM_merge"
+dir="/Volumes/Expansion/<your folder>/MappingResults/BAM_sorted"
+outdir="/Volumes/Expansion/<your folder>/MappingResults/BAM_merge"
 
 mkdir $outdir
 
