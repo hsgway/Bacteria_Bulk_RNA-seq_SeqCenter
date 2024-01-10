@@ -9,9 +9,9 @@
 #####
 
 # directory and file paths
-dir="/Volumes/Expansion/Bacteria_RNAseq_bowtie2_index/Cr_index" # folder to put index files
-fasta="/Volumes/Expansion/Bacteria_RNAseq_references/Cr/GCF_000027085.1_ASM2708v1_genomic.fna" # genome fasta file
-indexname="Cr_ASM2708v1"
+dir="/Volumes/Expansion/Bacteria_RNAseq_bowtie2_index/<your_index_folder>" # folder to put index files
+fasta="/Volumes/Expansion/Bacteria_RNAseq_references/<your_bacteria>/xxxxx_genomic.fna" # genome fasta file
+indexname="<your_index_name>"
 
 # create a folder to save the index for bowtie2
 mkdir $dir
