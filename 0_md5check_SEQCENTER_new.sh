@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # file and directory
-dir="/Volumes/Expansion/Bacteria_RNAseq_reads/20230406_Ian_CR_anaerobe"
+dir="/Volumes/Expansion/Bacteria_RNAseq_reads/<your_FASTQ_folder>"
 
 # go to the folder containing your files
 cd $dir
