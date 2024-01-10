@@ -18,3 +18,5 @@ bash xxx.sh
 ```
 
 3. Press enter
+
+**Skip 3_samtools_merge.sh if you do not have multiple FASTQ files (multiple lanes) per sample**
