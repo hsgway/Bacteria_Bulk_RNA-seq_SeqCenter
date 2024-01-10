@@ -3,8 +3,8 @@ Bacteria Bulk RNA-seq code (FASTQ from SeqCenter, paired-end) using Bowtie2
 
 ## About Mouse_bulk_RNA-seq repository
 
-This repository contains the template codes for Bacteria bulk RNA-seq analysis using Bowtie2
-Please use splice-aware software (e.g. STAR, HISAT2) instead if your sample has spliced RNA
+This repository contains the template codes for Bacteria bulk RNA-seq analysis using Bowtie2</br>
+Please use splice-aware software (e.g. STAR, HISAT2) instead if your sample has spliced RNA</br>
 
 **These scripts are for running on the local computer (gronx)**</br>
 
