@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # directory
-dir="/Volumes/Expansion/Franz/FASTQ_trimmed"
-outsamdir="/Volumes/Expansion/Franz/MappingResults/SAM"
-outbamdir="/Volumes/Expansion/Franz/MappingResults/BAM"
-outbamsorteddir="/Volumes/Expansion/Franz/MappingResults/BAM_sorted"
-indexdir="/Volumes/Expansion/Bacteria_RNAseq_bowtie2_index/VcN16961_Nat_2000_index/N16961_Nat_2000"
+dir="/Volumes/Expansion/<your folder>/FASTQ_trimmed"
+outsamdir="/Volumes/Expansion/<your folder>/MappingResults/SAM"
+outbamdir="/Volumes/Expansion/<your folder>/MappingResults/BAM"
+outbamsorteddir="/Volumes/Expansion/<your folder>/MappingResults/BAM_sorted"
+indexdir="/Volumes/Expansion/Bacteria_RNAseq_bowtie2_index/<your index folder>/<your index name>"
 
-mkdir /Volumes/Expansion/Franz/MappingResults
+mkdir /Volumes/Expansion/<your folder>/MappingResults
 mkdir $outsamdir
 mkdir $outbamdir
 mkdir $outbamsorteddir
