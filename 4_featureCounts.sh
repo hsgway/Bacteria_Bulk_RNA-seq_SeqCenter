@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # directory
-outdir="/Volumes/Expansion/test"
+outdir="/Volumes/Expansion/<your folder>"
 mkdir $outdir
 
 # gff3
-gff3="/Volumes/Expansion/Bacteria_RNAseq_references/Cr_genome/GCF_000027085.1_ASM2708v1_genomic.gff"
+gff3="/Volumes/Expansion/Bacteria_RNAseq_references/xxxxx.gff"
 
 # go to the folder containing sorted BAM files
-cd /Volumes/Expansion/Ian/20230511_CR_RNAseq_fecal_anaerobe/MappingResults/BAM_sorted
+cd /Volumes/Expansion/<your folder>/MappingResults/BAM_sorted
 
 # array and variable
 declare -a bam=(*.bam)
